@@ -101,5 +101,5 @@ For this design, the following fabrication options were used:
 
 ## License
 
-This hardware design is released under the CERN-OHL-S v2 license.  
+This hardware design is released under the MIT license.  
 See [`LICENSE`](LICENSE) for full terms.
