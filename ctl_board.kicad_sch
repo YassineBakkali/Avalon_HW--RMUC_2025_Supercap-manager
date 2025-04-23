@@ -253,7 +253,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mezzanine.kicad_sch"
+		(property "Sheetfile" "power.kicad_sch"
 			(at 53.34 101.854 0)
 			(effects
 				(font
