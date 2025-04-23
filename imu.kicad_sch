@@ -1,0 +1,28 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "af89405c-9247-4a48-972a-11db60890874")
+	(paper "A3")
+	(title_block
+		(title "Super Capacitor Module (SCM)")
+		(date "2024-06-22")
+		(rev "v1.0")
+		(company "NUS Calibur Robotics")
+		(comment 2 "Authors : Wx, Yassine Bakkali")
+	)
+	(lib_symbols)
+	(text "Return to main page"
+		(exclude_from_sim no)
+		(at 377.698 246.888 0)
+		(effects
+			(font
+				(size 3.27 3.27)
+				(thickness 0.654)
+				(bold yes)
+			)
+			(href "#1")
+		)
+		(uuid "0a870772-f71d-4a35-bf95-80a88582ac91")
+	)
+)

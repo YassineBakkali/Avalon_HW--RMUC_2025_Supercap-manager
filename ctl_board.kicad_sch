@@ -1,0 +1,414 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cc91bac5-64da-4543-b4bf-3848caf0cda3")
+	(paper "A4")
+	(title_block
+		(title "Super Capacitor Module (SCM)")
+		(date "2024-06-22")
+		(rev "v1.0")
+		(company "NUS Calibur Robotics")
+		(comment 2 "Authors : Wx, Yassine Bakkali")
+		(comment 9 "ef")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 170.942 112.776) (xy 180.34 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024a1638-384d-44d7-97c0-09ecb9106d15")
+	)
+	(bus
+		(pts
+			(xy 115.57 79.756) (xy 124.714 79.756)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44830e0a-adc9-4450-8207-cfb75118106f")
+	)
+	(bus
+		(pts
+			(xy 115.57 70.866) (xy 124.714 70.866)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4362b99-16ce-4aa5-a355-5ecd6e540b89")
+	)
+	(bus
+		(pts
+			(xy 180.34 108.458) (xy 170.942 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51e65b7-685d-427c-98ee-78c35afb6415")
+	)
+	(text "#2"
+		(exclude_from_sim no)
+		(at 129.032 121.412 0)
+		(effects
+			(font
+				(size 3.27 3.27)
+				(thickness 0.654)
+				(bold yes)
+			)
+			(href "#2")
+		)
+		(uuid "0924cd47-904b-4d4e-8fef-a7ac8396bae7")
+	)
+	(text "#4"
+		(exclude_from_sim no)
+		(at 56.642 82.804 0)
+		(effects
+			(font
+				(size 3.27 3.27)
+				(bold yes)
+			)
+			(href "#4")
+		)
+		(uuid "55cd5adc-bd17-4e0a-bd54-d73dae72feb8")
+	)
+	(text "#6"
+		(exclude_from_sim no)
+		(at 184.658 120.904 0)
+		(effects
+			(font
+				(size 3.27 3.27)
+				(bold yes)
+			)
+			(href "#7")
+		)
+		(uuid "62adf347-9bb7-420c-ba6a-d6409ca85e5d")
+	)
+	(text "SUPER CAPACITOR MODULE OVERVIEW"
+		(exclude_from_sim no)
+		(at 93.726 25.146 0)
+		(effects
+			(font
+				(size 5.27 5.27)
+				(thickness 1.054)
+				(bold yes)
+			)
+		)
+		(uuid "7644a9ce-b831-4c39-aaf5-293a09395e36")
+	)
+	(text "#3\n"
+		(exclude_from_sim no)
+		(at 56.896 120.65 0)
+		(effects
+			(font
+				(size 3.27 3.27)
+				(thickness 0.654)
+				(bold yes)
+			)
+			(href "#3")
+		)
+		(uuid "d4d53cad-eb2e-476a-a110-1a0f7bd85d8d")
+	)
+	(text "#5"
+		(exclude_from_sim no)
+		(at 184.15 83.058 0)
+		(effects
+			(font
+				(size 3.27 3.27)
+				(bold yes)
+			)
+			(href "#6")
+		)
+		(uuid "d5bd84c7-4a75-424b-a75a-ed4f6278f969")
+	)
+	(sheet
+		(at 179.832 68.072)
+		(size 64.008 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 209 235 255 1.0000)
+		)
+		(uuid "3ab7eae6-b97b-44de-b426-e2e6dcd84c4b")
+		(property "Sheetname" "LEDS"
+			(at 179.832 66.3604 0)
+			(effects
+				(font
+					(size 3.27 3.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer_led.kicad_sch"
+			(at 180.086 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 179.832 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ctl_board"
+				(path "/cc91bac5-64da-4543-b4bf-3848caf0cda3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 101.854)
+		(size 63.246 22.098)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 209 235 255 1.0000)
+		)
+		(uuid "4ca5246c-332b-422f-9af4-93cbf4630182")
+		(property "Sheetname" "Super Capacitor Charging Gates"
+			(at 180.34 100.1424 0)
+			(effects
+				(font
+					(size 3.27 3.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supercap_charger.kicad_sch"
+			(at 180.848 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PWM}" input
+			(at 180.34 108.458 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5110d1e-ee97-4553-b979-942f0313a55f")
+		)
+		(pin "{ADC}" input
+			(at 180.34 112.776 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "00fcf359-ebc1-4ea8-b6eb-34561d439931")
+		)
+		(instances
+			(project "ctl_board"
+				(path "/cc91bac5-64da-4543-b4bf-3848caf0cda3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.578 100.838)
+		(size 63.246 23.368)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 209 235 255 1.0000)
+		)
+		(uuid "cfe6d641-c21f-48de-85ff-3bb4ae1b5045")
+		(property "Sheetname" "POWER + REFERENCES"
+			(at 52.324 100.33 0)
+			(effects
+				(font
+					(size 3.27 3.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mezzanine.kicad_sch"
+			(at 53.34 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ctl_board"
+				(path "/cc91bac5-64da-4543-b4bf-3848caf0cda3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.816 68.326)
+		(size 63.754 17.272)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 209 235 255 1.0000)
+		)
+		(uuid "de47955e-9674-4a04-9e4a-3072394eab50")
+		(property "Sheetname" "CAN_UART INTERFACES"
+			(at 51.308 67.818 0)
+			(effects
+				(font
+					(size 3.27 3.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "comms.kicad_sch"
+			(at 52.578 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{CAN}" input
+			(at 115.57 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13b7cc4f-b0a8-4742-90f5-9f44a1043a98")
+		)
+		(pin "{UART}" input
+			(at 115.57 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f002783-2ced-4d97-a4e4-3845d0c48055")
+		)
+		(instances
+			(project "ctl_board"
+				(path "/cc91bac5-64da-4543-b4bf-3848caf0cda3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.714 68.326)
+		(size 46.228 56.134)
+		(stroke
+			(width 0.253)
+			(type solid)
+		)
+		(fill
+			(color 255 251 55 1.0000)
+		)
+		(uuid "df09347b-db4d-4bc4-9785-af80345d1ed4")
+		(property "Sheetname" "MCU"
+			(at 124.968 67.31 0)
+			(effects
+				(font
+					(size 3.27 3.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "g474_mcu.kicad_sch"
+			(at 124.714 125.3489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{UART}" input
+			(at 124.714 79.756 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4aa9979-d38c-4e76-ab30-c018986e47fb")
+		)
+		(pin "{CAN}" input
+			(at 124.714 70.866 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8714e820-bfcf-4da8-ad4c-7e741de4cee4")
+		)
+		(pin "{PWM}" input
+			(at 170.942 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4bfaa65-7c4d-441f-8d81-80b139913406")
+		)
+		(pin "{ADC}" input
+			(at 170.942 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf5c96ad-55d4-4b7a-b646-28a3b38321fa")
+		)
+		(instances
+			(project "ctl_board"
+				(path "/cc91bac5-64da-4543-b4bf-3848caf0cda3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,195 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ATA6560-GAQW-N
+D CAN Interface IC Industrial Grade CAN TRX with NSIL PIN (SO8)
+K
+F 
+$ENDCMP
+#
+$CMP AT25EU0021A-SSHN-T
+D NOR Flash 2 Mbit, Ultra Low Energy, Wide Vcc (1.65V to 3.6V), -40C to 85C, SOIC-N 150mil (Tape & Reel), Single, Dual, Quad SPI NOR flash
+K
+F https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dual-quad-spi-memory/at25eu0021a-2mbit-ultra-low-energy-serial-flash-memory
+$ENDCMP
+#
+$CMP FTSH-105-01-L-DV-K
+D Samtec, FTSH, 10 Way, 2 Row, Straight Pin Header
+K
+F https://www.arrow.com/en/products/ftsh-105-01-l-dv-k/samtec
+$ENDCMP
+#
+$CMP Adafruit_BMP280
+D Adafruit BMP280 Barometric Pressure + Temperature Sensor Breakout
+K
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout.pdf
+$ENDCMP
+#
+$CMP SQJ402EP-T1_GE3
+D MOSFET 100V 32A 27watt AEC-Q101 Qualified
+K
+F http://www.vishay.com/docs/67997/sqj402ep.pdf
+$ENDCMP
+#
+$CMP ISL55110IVZ
+D The ISL55110 is a dual high-speed MOSFET driver intended for applications requiring accurate pulse generation and buffering. Target applications include ultrasound, CCD imaging, piezoelectric distance sensing, and clock generation circuits. With a wide output voltage range and low ON-resistance, these devices can drive a variety of resistive and capacitive loads with fast rise and fall times, allowing high-speed operation with low skew, as required in large CCD array imaging applications. The ISL55110 is co
+K
+F https://componentsearchengine.com/Datasheets/2/ISL55110IVZ.pdf
+$ENDCMP
+#
+$CMP DMT6009LFG-7
+D MOSFET 60V N-Ch Enh FET Low Rdson
+K
+F https://www.diodes.com/assets/Datasheets/DMT6009LFG.pdf
+$ENDCMP
+#
+$CMP SI4840BDY-T1-E3
+D MOSFET 40V Vds 20V Vgs SO-8
+K
+F https://componentsearchengine.com/Datasheets/2/SI4840BDY-T1-E3.pdf
+$ENDCMP
+#
+$CMP XT30PB
+D Mini XT60 XT30 Connector for RC Multirotor Racing Drone Quadcopter
+K
+F https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
+$ENDCMP
+#
+$CMP XT30PW-F
+D Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow
+K
+F https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+$ENDCMP
+#
+$CMP XT30PW-M
+D 30A Low Temperature Rise Fire Retardant Plug
+K
+F https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+$ENDCMP
+#
+$CMP TSC200IDT
+D High voltage, current sense amplifier with open drain comparator and ref
+K
+F https://www.st.com/resource/en/datasheet/tsc200.pdf
+$ENDCMP
+#
+$CMP TSC200IST
+D High voltage, current sense amplifier with open drain comparator and ref
+K
+F https://www.st.com/resource/en/datasheet/tsc200.pdf
+$ENDCMP
+#
+$CMP DMP4015SK3-13
+D Diodes Inc DMP4015SK3-13 P-channel MOSFET Transistor, 11 A, -40 V, 3-Pin TO-252
+K
+F https://www.diodes.com/assets/Datasheets/DMP4015SK3.pdf
+$ENDCMP
+#
+$CMP CRA2512-FZ-R010ELF
+D Bourns CRA Series High Power Surface Mount Resistor 2512 Case 10m +/-1% 3W +/-75ppm/C
+K
+F http://www.bourns.com/PDFs/CRA.pdf
+$ENDCMP
+#
+$CMP INA138NA_250
+D 36V, High-Side, Current Output Current Sense Amplifier
+K
+F http://www.ti.com/lit/ds/symlink/ina138.pdf
+$ENDCMP
+#
+$CMP AS393AMTR-G1
+D DiodesZetex AS393AMTR-G1 Dual Comparator, Open Collector O/P, 1.3us 2  36 V 8-Pin SOIC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/c4518b5a1d1c2d3c34fe091ab3b25de2.pdf
+$ENDCMP
+#
+$CMP AZV331KTR-G1
+D DiodesZetex AZV331KTR-G1 Comparator, Open Collector O/P, 2.5  5.5 V 5-Pin SOT-23
+K
+F https://www.diodes.com/assets/Datasheets/AZV331.pdf
+$ENDCMP
+#
+$CMP AZ1117CH-3.3TRG1
+D 1.35A 3.3V LDO Reg. Current Limit SOT223 DiodesZetex AZ1117CH-3.3TRG1, LDO Voltage Regulator, 0.8A, 3.3 V +/-1%, maximum of 15 Vin, 3-Pin SOT-223
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1776204.pdf
+$ENDCMP
+#
+$CMP PESD5V0L4UW,115
+D PESDxL4UF; PESDxL4UG; PESDxL4UW - Low capacitance unidirectional quadruple ESD protection diode arrays
+K
+F https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
+$ENDCMP
+#
+$CMP EVQP7C01P
+D Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm
+K
+F https://www.arrow.com/en/products/evqp7c01p/panasonic
+$ENDCMP
+#
+$CMP TL3340AF160QG
+D E-SWITCH - TL3340AF160QG. - SWITCH, TACTILE SPST 50mA, SMD GULL WING
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00021244.pdf
+$ENDCMP
+#
+$CMP ABM2-12.000MHZ-D4Y-T
+D CERAMIC SMD MICROPROCESSOR CRYSTAL
+K
+F https://abracon.com/Resonators/abm2.pdf
+$ENDCMP
+#
+$CMP ABM10AIG-12.000MHZ-4Z-T3
+D Crystal 12MHz +/-30ppm (Tol) +/-50ppm (Stability) 10pF FUND 150Ohm Automotive 4-Pin Ultra Mini-CSMD T/R
+K
+F https://abracon.com/AIGcrystals/ABM10AIG.pdf
+$ENDCMP
+#
+$CMP TPH2501-TR
+D High SpeedOperational Amplifier, 1 Circuit, SOT23-5
+K
+F http://file.3peakic.com.cn:8080/product/Datasheet_TPH2501-TPH2502-TPH2503-TPH2504.pdf
+$ENDCMP
+#
+$CMP PESD5V0F1BL,315
+D PESD5V0F1BL - Femtofarad bidirectional ESD protection diode
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD5V0F1BL.pdf
+$ENDCMP
+#
+$CMP LRTB_R48G
+D LED,Osram,LRTB R48G Osram Opto LRTB R48G, Multi CHIPLED Series 3 RGB LED, 476 / 538 / 627 nm 4-Pin, Square Lens SMD package
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/b107022a49e08d561887719e6607199a.pdf
+$ENDCMP
+#
+$CMP INA168NA_3K
+D 60V, High-Side, Current Output Current Sense Amplifier
+K
+F http://www.ti.com/lit/gpn/ina168
+$ENDCMP
+#
+$CMP IX4427MTR
+D 1.5-Ampere Dual Low-Side Ultrafast MOSFET Drivers
+K
+F http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf
+$ENDCMP
+#
+$CMP RQ3G100GNTB
+D Nch 40V 27A Power MOSFET 
+K
+F https://componentsearchengine.com/Datasheets/1/RQ3G100GNTB.pdf
+$ENDCMP
+#
+$CMP MCG35P04-TP
+D MOSFET P-CHANNEL MOSFET
+K
+F https://mccsemi.com/pdf/Products/MCG35P04(DFN3333).pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+#End Doc Library

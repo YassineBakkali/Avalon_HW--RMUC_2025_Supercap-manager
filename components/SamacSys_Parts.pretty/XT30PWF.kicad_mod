@@ -1,0 +1,242 @@
+(footprint "XT30PWF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XT30PW-F-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 2.5 -6.862 0)
+		(layer "F.SilkS")
+		(uuid "9bcbe97d-0e32-4344-a2ed-b97bd9e5911d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT30PWF"
+		(at 2.5 -6.862 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3a8bbe7d-068d-4f44-8dc0-387c69477bb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "XT30PWF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8af0bba-71fb-445f-8610-17f8ecba3adc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a1b31f0-60e0-4b3a-886e-967b1453f5d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89424691-2f4b-41fe-840b-87ed039ccb27")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.15 -15)
+		(end 9.15 -15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0496f77b-d671-4a70-a80e-38c11fd39458")
+	)
+	(fp_line
+		(start -4.15 -3)
+		(end -4.15 -15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbc3ef02-e369-40d3-bb69-42ca9c62bbe8")
+	)
+	(fp_line
+		(start 9.15 -15)
+		(end 9.15 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "268008bb-2b8f-489c-85c1-915c83d1e80a")
+	)
+	(fp_line
+		(start 9.15 -3)
+		(end -4.15 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25d560c9-c0d8-40cf-8ed5-d9d665d5846e")
+	)
+	(fp_line
+		(start -5.15 -16)
+		(end 10.15 -16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2201b803-1227-4329-b159-45941ac0dc38")
+	)
+	(fp_line
+		(start -5.15 2.275)
+		(end -5.15 -16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36a27c77-e986-4c28-94cb-6dbc04f8470e")
+	)
+	(fp_line
+		(start 10.15 -16)
+		(end 10.15 2.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7f07081-f327-46c6-93ff-6e85b13e90f4")
+	)
+	(fp_line
+		(start 10.15 2.275)
+		(end -5.15 2.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47c3206e-db82-45ba-bb1a-d1fc2353ed78")
+	)
+	(fp_line
+		(start -4.15 -15)
+		(end 9.15 -15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e290fe8c-3e72-4ad6-8357-930ebb6013d2")
+	)
+	(fp_line
+		(start -4.15 -3)
+		(end -4.15 -15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1db3e03f-7b20-41e2-aade-eb9fb2cc982d")
+	)
+	(fp_line
+		(start 9.15 -15)
+		(end 9.15 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c11ba0d6-a047-43e0-8c31-3a629d685ee1")
+	)
+	(fp_line
+		(start 9.15 -3)
+		(end -4.15 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35581bae-f335-476b-a144-54efc8398ef9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -6.862 0)
+		(layer "F.Fab")
+		(uuid "8c8ac508-1569-41a8-9f1a-be9565d6721d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79679037-651a-4e3f-b78b-8dffd4b10b95")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "212266cc-ade3-4b8f-b271-cb9a5eea1557")
+	)
+	(pad "3" thru_hole circle
+		(at -3 -5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ee72c70-567f-458f-8e18-eb6a9788eb64")
+	)
+	(pad "4" thru_hole circle
+		(at 8 -5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91bc12a0-7c44-4537-9439-8d3ce97f9819")
+	)
+	(model "${KIPRJMOD}/components/3d_models.pretty/XT30PW-F.stp"
+		(offset
+			(xyz 2.5 8 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

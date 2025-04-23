@@ -1,0 +1,796 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ATA6560-GAQW-N
+#/1393125/1270197/2.50/8/3/Integrated Circuit
+DEF ATA6560-GAQW-N IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ATA6560-GAQW-N" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "CAN Interface IC Industrial Grade CAN TRX with NSIL PIN (SO8)" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Microchip" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ATA6560-GAQW-N" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X TXD 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X VCC 3 0 -200 200 R 50 50 0 0 P
+X RXD 4 0 -300 200 R 50 50 0 0 P
+X STBY 8 1100 0 200 L 50 50 0 0 P
+X CANH 7 1100 -100 200 L 50 50 0 0 P
+X CANL 6 1100 -200 200 L 50 50 0 0 P
+X NSIL 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AT25EU0021A-SSHN-T
+#/16436664/1270197/2.50/8/2/Integrated Circuit
+DEF AT25EU0021A-SSHN-T IC 0 30 Y Y 1 F N
+F0 "IC" 1850 300 50 H V L CNN
+F1 "AT25EU0021A-SSHN-T" 1850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1850 100 50 H I L CNN
+F3 "https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dual-quad-spi-memory/at25eu0021a-2mbit-ultra-low-energy-serial-flash-memory" 1850 0 50 H I L CNN
+F4 "NOR Flash 2 Mbit, Ultra Low Energy, Wide Vcc (1.65V to 3.6V), -40C to 85C, SOIC-N 150mil (Tape & Reel), Single, Dual, Quad SPI NOR flash" 1850 -100 50 H I L CNN "Description"
+F5 "1.75" 1850 -200 50 H I L CNN "Height"
+F6 "" 1850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Renesas Electronics" 1850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AT25EU0021A-SSHN-T" 1850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X SO(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 2000 0 200 L 50 50 0 0 P
+X ~HOLD~/~RESET(IO3) 7 2000 -100 200 L 50 50 0 0 P
+X SCK 6 2000 -200 200 L 50 50 0 0 P
+X SI(IO0) 5 2000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1800 100 1800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FTSH-105-01-L-DV-K
+#/12861353/1270197/2.50/10/4/Connector
+DEF FTSH-105-01-L-DV-K J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "FTSH-105-01-L-DV-K" 750 200 50 H V L CNN
+F2 "FTSH10501LDVK" 750 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/ftsh-105-01-l-dv-k/samtec" 750 0 50 H I L CNN
+F4 "Samtec, FTSH, 10 Way, 2 Row, Straight Pin Header" 750 -100 50 H I L CNN "Description"
+F5 "6.1" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "element14 Part Number"
+F7 "" 750 -400 50 H I L CNN "element14 Price/Stock"
+F8 "SAMTEC" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FTSH-105-01-L-DV-K" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model Adafruit_BMP280
+#/16626292/1270197/2.50/9/3/Integrated Circuit
+DEF Adafruit_BMP280 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "Adafruit_BMP280" 850 200 50 H V L CNN
+F2 "AdafruitBMP280" 850 100 50 H I L CNN
+F3 "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout.pdf" 850 0 50 H I L CNN
+F4 "Adafruit BMP280 Barometric Pressure + Temperature Sensor Breakout" 850 -100 50 H I L CNN "Description"
+F5 "2.9" 850 -200 50 H I L CNN "Height"
+F6 "Adafruit" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "Adafruit BMP280" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X 3VO 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X SCK 4 0 -300 200 R 50 50 0 0 P
+X SDO 5 0 -400 200 R 50 50 0 0 P
+X SDI 6 0 -500 200 R 50 50 0 0 P
+X CS 7 0 -600 200 R 50 50 0 0 P
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+X MH2 MH2 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SQJ402EP-T1_GE3
+#/997916/1270197/2.50/5/4/MOSFET (N-Channel)
+DEF SQJ402EP-T1_GE3 Q 0 30 Y Y 1 F N
+F0 "Q" 750 300 50 H V L CNN
+F1 "SQJ402EP-T1_GE3" 750 200 50 H V L CNN
+F2 "SQJA72EPT1_GE3" 750 100 50 H I L CNN
+F3 "http://www.vishay.com/docs/67997/sqj402ep.pdf" 750 0 50 H I L CNN
+F4 "MOSFET 100V 32A 27watt AEC-Q101 Qualified" 750 -100 50 H I L CNN "Description"
+F5 "" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "element14 Part Number"
+F7 "" 750 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SQJ402EP-T1_GE3" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 900 0 200 L 50 50 0 0 P
+X D 5 900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ISL55110IVZ
+#/5492642/1270197/2.50/8/2/Integrated Circuit
+DEF ISL55110IVZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ISL55110IVZ" 950 200 50 H V L CNN
+F2 "SOP65P640X120-8N" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/ISL55110IVZ.pdf" 950 0 50 H I L CNN
+F4 "The ISL55110 is a dual high-speed MOSFET driver intended for applications requiring accurate pulse generation and buffering. Target applications include ultrasound, CCD imaging, piezoelectric distance sensing, and clock generation circuits. With a wide output voltage range and low ON-resistance, these devices can drive a variety of resistive and capacitive loads with fast rise and fall times, allowing high-speed operation with low skew, as required in large CCD array imaging applications. The ISL55110 is co" 950 -100 50 H I L CNN "Description"
+F5 "1.2" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Renesas Electronics" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ISL55110IVZ" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 P
+X PD 2 0 -100 200 R 50 50 0 0 P
+X IN-B 3 0 -200 200 R 50 50 0 0 P
+X IN-A 4 0 -300 200 R 50 50 0 0 P
+X OB 8 1100 0 200 L 50 50 0 0 P
+X GND 7 1100 -100 200 L 50 50 0 0 P
+X VH 6 1100 -200 200 L 50 50 0 0 P
+X OA 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DMT6009LFG-7
+#/1309230/1270197/2.50/9/4/MOSFET (N-Channel)
+DEF DMT6009LFG-7 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "DMT6009LFG-7" 850 200 50 H V L CNN
+F2 "DMP4013LFG7" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMT6009LFG.pdf" 850 0 50 H I L CNN
+F4 "MOSFET 60V N-Ch Enh FET Low Rdson" 850 -100 50 H I L CNN "Description"
+F5 "0.8" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Diodes Incorporated" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DMT6009LFG-7" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 0 -400 200 R 50 50 0 0 P
+X D_2 6 1000 0 200 L 50 50 0 0 P
+X D_3 7 1000 -100 200 L 50 50 0 0 P
+X D_4 8 1000 -200 200 L 50 50 0 0 P
+X D_5 9 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SI4840BDY-T1-E3
+#/236018/1270197/2.50/8/3/Integrated Circuit
+DEF SI4840BDY-T1-E3 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SI4840BDY-T1-E3" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/SI4840BDY-T1-E3.pdf" 850 0 50 H I L CNN
+F4 "MOSFET 40V Vds 20V Vgs SO-8" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SI4840BDY-T1-E3" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_4 8 1000 0 200 L 50 50 0 0 P
+X D_3 7 1000 -100 200 L 50 50 0 0 P
+X D_2 6 1000 -200 200 L 50 50 0 0 P
+X D_1 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model XT30PB
+#/11140213/1270197/2.50/2/4/Connector
+DEF XT30PB J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "XT30PB" 650 200 50 H V L CNN
+F2 "XT30PB" 650 100 50 H I L CNN
+F3 "https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf" 650 0 50 H I L CNN
+F4 "Mini XT60 XT30 Connector for RC Multirotor Racing Drone Quadcopter" 650 -100 50 H I L CNN "Description"
+F5 "10.7" 650 -200 50 H I L CNN "Height"
+F6 "Amass" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "XT30PB" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model XT30PW-F
+#/11983009/1270197/2.50/4/4/Connector
+DEF XT30PW-F J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "XT30PW-F" 650 200 50 H V L CNN
+F2 "XT30PWF" 650 100 50 H I L CNN
+F3 "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf" 650 0 50 H I L CNN
+F4 "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow" 650 -100 50 H I L CNN "Description"
+F5 "5" 650 -200 50 H I L CNN "Height"
+F6 "Amass" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "XT30PW-F" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model XT30PW-M
+#/1023025/1270197/2.50/4/4/Connector
+DEF XT30PW-M J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "XT30PW-M" 650 200 50 H V L CNN
+F2 "XT30PWM" 650 100 50 H I L CNN
+F3 "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf" 650 0 50 H I L CNN
+F4 "30A Low Temperature Rise Fire Retardant Plug" 650 -100 50 H I L CNN "Description"
+F5 "5" 650 -200 50 H I L CNN "Height"
+F6 "Amass" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "XT30PW-M" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 -100 200 L 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TSC200IDT
+#/16500758/1270197/2.50/8/2/Integrated Circuit
+DEF TSC200IDT IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TSC200IDT" 1150 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1150 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/tsc200.pdf" 1150 0 50 H I L CNN
+F4 "High voltage, current sense amplifier with open drain comparator and ref" 1150 -100 50 H I L CNN "Description"
+F5 "1.75" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1150 -400 50 H I L CNN "element14 Price/Stock"
+F8 "STMicroelectronics" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TSC200IDT" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VCC 1 0 0 200 R 50 50 0 0 P
+X OUT 2 0 -100 200 R 50 50 0 0 P
+X CMPIN 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VIN+ 8 1300 0 200 L 50 50 0 0 P
+X VIN- 7 1300 -100 200 L 50 50 0 0 P
+X CMPOUT 6 1300 -200 200 L 50 50 0 0 P
+X RESET 5 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TSC200IST
+#/15881716/1270197/2.50/8/2/Integrated Circuit
+DEF TSC200IST IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TSC200IST" 1150 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 1150 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/tsc200.pdf" 1150 0 50 H I L CNN
+F4 "High voltage, current sense amplifier with open drain comparator and ref" 1150 -100 50 H I L CNN "Description"
+F5 "1.1" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TSC200IST" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VCC 1 0 0 200 R 50 50 0 0 P
+X OUT 2 0 -100 200 R 50 50 0 0 P
+X CMPIN 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VIN+ 8 1300 0 200 L 50 50 0 0 P
+X VIN- 7 1300 -100 200 L 50 50 0 0 P
+X CMPOUT 6 1300 -200 200 L 50 50 0 0 P
+X ~RESET 5 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DMP4015SK3-13
+#/441101/1270197/2.50/3/4/MOSFET (P-Channel)
+DEF DMP4015SK3-13 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "DMP4015SK3-13" 450 50 50 H V L CNN
+F2 "AZ1084CD50TRG1" 450 -50 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMP4015SK3.pdf" 450 -150 50 H I L CNN
+F4 "Diodes Inc DMP4015SK3-13 P-channel MOSFET Transistor, 11 A, -40 V, 3-Pin TO-252" 450 -250 50 H I L CNN "Description"
+F5 "2.38" 450 -350 50 H I L CNN "Height"
+F6 "" 450 -450 50 H I L CNN "element14 Part Number"
+F7 "" 450 -550 50 H I L CNN "element14 Price/Stock"
+F8 "Diodes Incorporated" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "DMP4015SK3-13" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRA2512-FZ-R010ELF
+#/864107/1270197/2.50/2/4/Resistor
+DEF CRA2512-FZ-R010ELF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRA2512-FZ-R010ELF" 550 150 50 H V L CNN
+F2 "RESC6434X90N" 550 50 50 H I L CNN
+F3 "http://www.bourns.com/PDFs/CRA.pdf" 550 -50 50 H I L CNN
+F4 "Bourns CRA Series High Power Surface Mount Resistor 2512 Case 10m +/-1% 3W +/-75ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.9" 550 -250 50 H I L CNN "Height"
+F6 "" 550 -350 50 H I L CNN "element14 Part Number"
+F7 "" 550 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CRA2512-FZ-R010ELF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model INA138NA_250
+#/181356/1270197/2.50/5/3/Integrated Circuit
+DEF INA138NA_250 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "INA138NA_250" 950 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ina138.pdf" 950 0 50 H I L CNN
+F4 "36V, High-Side, Current Output Current Sense Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "INA138NA/250" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X VIN+ 3 0 -200 200 R 50 50 0 0 P
+X VIN- 4 1100 0 200 L 50 50 0 0 P
+X V+ 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AS393AMTR-G1
+#/440587/1270197/2.50/8/4/Integrated Circuit
+DEF AS393AMTR-G1 IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "AS393AMTR-G1" 1350 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1350 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/c4518b5a1d1c2d3c34fe091ab3b25de2.pdf" 1350 0 50 H I L CNN
+F4 "DiodesZetex AS393AMTR-G1 Dual Comparator, Open Collector O/P, 1.3us 2  36 V 8-Pin SOIC" 1350 -100 50 H I L CNN "Description"
+F5 "1.75" 1350 -200 50 H I L CNN "Height"
+F6 "" 1350 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1350 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Diodes Incorporated" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AS393AMTR-G1" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUTPUT1 1 0 0 200 R 50 50 0 0 P
+X INPUT1- 2 0 -100 200 R 50 50 0 0 P
+X INPUT1+ 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1500 0 200 L 50 50 0 0 P
+X OUTPUT_2 7 1500 -100 200 L 50 50 0 0 P
+X INPUT_2- 6 1500 -200 200 L 50 50 0 0 P
+X INPUT_2+ 5 1500 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AZV331KTR-G1
+#/440611/1270197/2.50/5/4/Integrated Circuit
+DEF AZV331KTR-G1 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AZV331KTR-G1" 1050 200 50 H V L CNN
+F2 "SOT95P282X145-5N" 1050 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AZV331.pdf" 1050 0 50 H I L CNN
+F4 "DiodesZetex AZV331KTR-G1 Comparator, Open Collector O/P, 2.5  5.5 V 5-Pin SOT-23" 1050 -100 50 H I L CNN "Description"
+F5 "1.45" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Diodes Incorporated" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AZV331KTR-G1" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN+ 1 0 0 200 R 50 50 0 0 P
+X VEE 2 0 -100 200 R 50 50 0 0 P
+X IN- 3 0 -200 200 R 50 50 0 0 P
+X OUTPUT 4 1200 0 200 L 50 50 0 0 P
+X VCC 5 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AZ1117CH-3.3TRG1
+#/277743/1270197/2.50/4/3/Integrated Circuit
+DEF AZ1117CH-3.3TRG1 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "AZ1117CH-3.3TRG1" 1150 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1150 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1776204.pdf" 1150 0 50 H I L CNN
+F4 "1.35A 3.3V LDO Reg. Current Limit SOT223 DiodesZetex AZ1117CH-3.3TRG1, LDO Voltage Regulator, 0.8A, 3.3 V +/-1%, maximum of 15 Vin, 3-Pin SOT-223" 1150 -100 50 H I L CNN "Description"
+F5 "1.8" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1150 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Diodes Incorporated" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AZ1117CH-3.3TRG1" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ADJ/GND 1 0 0 200 R 50 50 0 0 P
+X OUTPUT 2 0 -100 200 R 50 50 0 0 P
+X INPUT 3 0 -200 200 R 50 50 0 0 P
+X VOUT 4 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PESD5V0L4UW,115
+#/527088/1270197/2.50/5/2/Diode ESD (Uni-directional)
+DEF PESD5V0L4UW,115 D 0 30 Y Y 1 F N
+F0 "D" 2250 300 50 H V L CNN
+F1 "PESD5V0L4UW,115" 2250 200 50 H V L CNN
+F2 "SOTFL50P160X60-5N" 2250 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" 2250 0 50 H I L CNN
+F4 "PESDxL4UF; PESDxL4UG; PESDxL4UW - Low capacitance unidirectional quadruple ESD protection diode arrays" 2250 -100 50 H I L CNN "Description"
+F5 "0.6" 2250 -200 50 H I L CNN "Height"
+F6 "" 2250 -300 50 H I L CNN "element14 Part Number"
+F7 "" 2250 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Nexperia" 2250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PESD5V0L4UW,115" 2250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CATHODE_(DIODE_1) 1 0 0 200 R 50 50 0 0 P
+X COMMON_ANODE 2 0 -100 200 R 50 50 0 0 P
+X CATHODE_(DIODE_2) 3 0 -200 200 R 50 50 0 0 P
+X CATHODE_(DIODE_3) 4 2400 0 200 L 50 50 0 0 P
+X CATHODE_(DIODE_4) 5 2400 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2200 100 2200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EVQP7C01P
+#/1348849/1270197/2.50/4/4/Switch
+DEF EVQP7C01P S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "EVQP7C01P" 1050 200 50 H V L CNN
+F2 "EVQP7C01P" 1050 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/evqp7c01p/panasonic" 1050 0 50 H I L CNN
+F4 "Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Panasonic" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "EVQP7C01P" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X COM_1 2 0 -100 200 R 50 50 0 0 P
+X COM_2 3 1200 -100 200 L 50 50 0 0 P
+X NO_2 4 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL3340AF160QG
+#/772213/1270197/2.50/3/4/Switch
+DEF TL3340AF160QG S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "TL3340AF160QG" 650 200 50 H V L CNN
+F2 "TL3340" 650 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00021244.pdf" 650 0 50 H I L CNN
+F4 "E-SWITCH - TL3340AF160QG. - SWITCH, TACTILE SPST 50mA, SMD GULL WING" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "E-Switch" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL3340AF160QG" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ABM2-12.000MHZ-D4Y-T
+#/261580/1270197/2.50/2/2/Crystal or Oscillator
+DEF ABM2-12.000MHZ-D4Y-T Y 0 30 Y Y 1 F N
+F0 "Y" 350 250 50 H V L CNN
+F1 "ABM2-12.000MHZ-D4Y-T" 350 150 50 H V L CNN
+F2 "ABM212000MHZD4YT" 350 50 50 H I L CNN
+F3 "https://abracon.com/Resonators/abm2.pdf" 350 -50 50 H I L CNN
+F4 "CERAMIC SMD MICROPROCESSOR CRYSTAL" 350 -150 50 H I L CNN "Description"
+F5 "1.8" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "ABRACON" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ABM2-12.000MHZ-D4Y-T" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 0 100 L 50 50 0 0 P
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 5 0 1 6 160 140 160 -140 240 -140 240 140 160 140 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 120 0 100 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ABM10AIG-12.000MHZ-4Z-T3
+#/568756/1270197/2.50/4/2/Crystal or Oscillator
+DEF ABM10AIG-12.000MHZ-4Z-T3 Y 0 30 Y Y 1 F N
+F0 "Y" 1150 300 50 H V L CNN
+F1 "ABM10AIG-12.000MHZ-4Z-T3" 1150 200 50 H V L CNN
+F2 "ABM10AIG" 1150 100 50 H I L CNN
+F3 "https://abracon.com/AIGcrystals/ABM10AIG.pdf" 1150 0 50 H I L CNN
+F4 "Crystal 12MHz +/-30ppm (Tol) +/-50ppm (Stability) 10pF FUND 150Ohm Automotive 4-Pin Ultra Mini-CSMD T/R" 1150 -100 50 H I L CNN "Description"
+F5 "0.65" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1150 -400 50 H I L CNN "element14 Price/Stock"
+F8 "ABRACON" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ABM10AIG-12.000MHZ-4Z-T3" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X XTAL_1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1300 -100 200 L 50 50 0 0 P
+X XTAL_2 3 1300 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPH2501-TR
+#/2644341/1270197/2.50/5/2/Integrated Circuit
+DEF TPH2501-TR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TPH2501-TR" 850 200 50 H V L CNN
+F2 "SOT95P280X125-5N" 850 100 50 H I L CNN
+F3 "http://file.3peakic.com.cn:8080/product/Datasheet_TPH2501-TPH2502-TPH2503-TPH2504.pdf" 850 0 50 H I L CNN
+F4 "High SpeedOperational Amplifier, 1 Circuit, SOT23-5" 850 -100 50 H I L CNN "Description"
+F5 "1.25" 850 -200 50 H I L CNN "Height"
+F6 "3Peak Incorporated" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPH2501-TR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X -VS 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X -IN 4 1000 0 200 L 50 50 0 0 P
+X +VS 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PESD5V0F1BL,315
+#/1188042/1270197/2.50/2/2/Diode ESD (Bi-directional)
+DEF PESD5V0F1BL,315 D 0 30 Y Y 1 F N
+F0 "D" 600 350 50 H V L BNN
+F1 "PESD5V0F1BL,315" 600 250 50 H V L BNN
+F2 "PESD5V0S1BL315" 600 150 50 H I L BNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PESD5V0F1BL.pdf" 600 50 50 H I L BNN
+F4 "PESD5V0F1BL - Femtofarad bidirectional ESD protection diode" 600 -50 50 H I L BNN "Description"
+F5 "0" 600 -150 50 H I L BNN "Height"
+F6 "" 600 -250 50 H I L BNN "element14 Part Number"
+F7 "" 600 -350 50 H I L BNN "element14 Price/Stock"
+F8 "Nexperia" 600 -450 50 H I L BNN "Manufacturer_Name"
+F9 "PESD5V0F1BL,315" 600 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+P 4 0 1 6 400 0 200 -100 200 100 400 0 N
+P 4 0 1 6 400 0 600 -100 600 100 400 0 N
+P 2 0 1 6 400 -180 400 180 N
+P 2 0 1 6 440 200 400 180 N
+P 2 0 1 6 400 -180 360 -200 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LRTB_R48G
+#/237130/1270197/2.50/4/3/LED
+DEF LRTB_R48G LED 0 30 Y Y 1 F N
+F0 "LED" 1450 300 50 H V L CNN
+F1 "LRTB_R48G" 1450 200 50 H V L CNN
+F2 "LRTB-R48G" 1450 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/b107022a49e08d561887719e6607199a.pdf" 1450 0 50 H I L CNN
+F4 "LED,Osram,LRTB R48G Osram Opto LRTB R48G, Multi CHIPLED Series 3 RGB LED, 476 / 538 / 627 nm 4-Pin, Square Lens SMD package" 1450 -100 50 H I L CNN "Description"
+F5 "" 1450 -200 50 H I L CNN "Height"
+F6 "" 1450 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1450 -400 50 H I L CNN "element14 Price/Stock"
+F8 "ams OSRAM" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LRTB R48G" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ANODE 1 1600 0 200 L 50 50 0 0 P
+X CATHODE-R 2 1600 -100 200 L 50 50 0 0 P
+X CATHODE-G 3 0 -100 200 R 50 50 0 0 P
+X CATHODE-B 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model INA168NA_3K
+#/749043/1270197/2.50/5/3/Integrated Circuit
+DEF INA168NA_3K IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "INA168NA_3K" 950 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/ina168" 950 0 50 H I L CNN
+F4 "60V, High-Side, Current Output Current Sense Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "INA168NA/3K" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X VIN+ 3 0 -200 200 R 50 50 0 0 P
+X VIN- 4 1100 0 200 L 50 50 0 0 P
+X V+ 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IX4427MTR
+#/1269240/1270197/2.50/9/3/Integrated Circuit
+DEF IX4427MTR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "IX4427MTR" 1050 200 50 H V L CNN
+F2 "SON65P300X300X90-9N" 1050 100 50 H I L CNN
+F3 "http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf" 1050 0 50 H I L CNN
+F4 "1.5-Ampere Dual Low-Side Ultrafast MOSFET Drivers" 1050 -100 50 H I L CNN "Description"
+F5 "0.9" 1050 -200 50 H I L CNN "Height"
+F6 "849-IX4427MTR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/IX4427MTR?qs=KD90HyCcfIn4cdMeKdxOsg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IX4427MTR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X INA 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X INB 4 0 -300 200 R 50 50 0 0 P
+X EPAD 9 600 -900 200 U 50 50 0 0 P
+X NC_2 8 1200 0 200 L 50 50 0 0 P
+X OUTA 7 1200 -100 200 L 50 50 0 0 P
+X VCC 6 1200 -200 200 L 50 50 0 0 P
+X OUTB 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RQ3G100GNTB
+#/305653/1270197/2.50/9/2/MOSFET (N-Channel)
+DEF RQ3G100GNTB Q 0 30 Y Y 1 F N
+F0 "Q" 1350 300 50 H V L CNN
+F1 "RQ3G100GNTB" 1350 200 50 H V L CNN
+F2 "RQ3G100GNTB" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/RQ3G100GNTB.pdf" 1350 0 50 H I L CNN
+F4 "Nch 40V 27A Power MOSFET " 1350 -100 50 H I L CNN "Description"
+F5 "0.9" 1350 -200 50 H I L CNN "Height"
+F6 "755-RQ3G100GNTB" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RQ3G100GNTB?qs=npTsUczJOtO8%252Ba2ZMenjDg%3D%3D" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RQ3G100GNTB" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SOURCE_1 1 0 0 200 R 50 50 0 0 P
+X SOURCE_2 2 0 -100 200 R 50 50 0 0 P
+X SOURCE_3 3 0 -200 200 R 50 50 0 0 P
+X GATE 4 0 -300 200 R 50 50 0 0 P
+X DRAIN_1 5 0 -400 200 R 50 50 0 0 P
+X DRAIN_2 6 1500 0 200 L 50 50 0 0 P
+X DRAIN_3 7 1500 -100 200 L 50 50 0 0 P
+X DRAIN_4 8 1500 -200 200 L 50 50 0 0 P
+X DRAIN_5 9 1500 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCG35P04-TP
+#/18745651/1270197/2.50/9/2/MOSFET (P-Channel)
+DEF MCG35P04-TP Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "MCG35P04-TP" 850 200 50 H V L CNN
+F2 "MCG50N04TP" 850 100 50 H I L CNN
+F3 "https://mccsemi.com/pdf/Products/MCG35P04(DFN3333).pdf?hkey=EF798316E3902B6ED9A73243A3159BB0" 850 0 50 H I L CNN
+F4 "MOSFET P-CHANNEL MOSFET" 850 -100 50 H I L CNN "Description"
+F5 "0.85" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "MCC" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCG35P04-TP" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 0 -400 200 R 50 50 0 0 P
+X D_2 6 1000 0 200 L 50 50 0 0 P
+X D_3 7 1000 -100 200 L 50 50 0 0 P
+X D_4 8 1000 -200 200 L 50 50 0 0 P
+X D_5 9 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
